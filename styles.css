@@ -1,0 +1,158 @@
+:root {
+    --dark-gray: #120F16;
+    --dark-purple: #17072c;
+  }
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+*{
+    font-family: 'Montserrat';
+    font-size: 22px;;
+    font-size: medium;
+  }
+.page-1{
+    background-image: linear-gradient(var(--dark-purple), var(--dark-gray) 60%);
+    height: 900px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+.page-2{
+    position: relative;
+    background-color: #17072c;
+    height: 900px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: #120F16;
+    margin: 0;
+    padding: 20px;
+}
+.items{
+    display: flex;
+    gap: 20px;
+    font-family:  'Montserrat';
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    
+}
+.top-icon{
+    height: 50px;
+    margin-left: 20px;
+}
+.main-display{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px;
+   
+}
+
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-text{
+    font-weight:900;
+    font-size:45px;
+   
+}
+.span-1{
+    font-weight:900;
+    font-size:45px;
+    position: relative;
+  display: inline-block;
+
+  overflow: hidden;
+}
+.span-1{
+    background: linear-gradient(to right, rgba(247, 162, 255, 0.623), rgba(204, 127, 255, 0.562)50%, rgb(255, 255, 255) 50%);
+  }
+  .span-1 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+  }
+  .span-1 {
+
+    transition: background-position 800ms ease-in;
+  }
+  .span-1:hover {
+    background-position: 0 100%;
+  }
+
+.sub-text{
+    font-family:  'Montserrat';
+   font-weight: 100;
+  
+}
+.main-button{
+    margin-top: 10px;
+    align-self: flex-start;
+    color: white   ;
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+ 
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes fade2{
+        0%{
+            opacity: 0;
+        }
+        25%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+     
+        100%{
+            opacity: 0;
+        }
+}
+.ipod-image{
+    
+    height: 400px;
+   
+}
+
+.vinyl{
+    transform: translate(-600px,600px) rotate(-90deg);
+
+    position: fixed;
+    height: 50%;
+    transition: transform 0.7s ease-in-out;
+   
+}
+.main-button:hover + .vinyl{
+    transform: translate(-390px,390px) rotate(0deg);
+    
+}
+.main-button:hover{
+        box-shadow: 0 0 20px rgba(36, 0, 56, 0.678);
+}
