@@ -13,6 +13,7 @@ html, body {
     font-size: medium;
     text-decoration: none;
     color: white;
+   
   }
 .page-1{
     background-image: linear-gradient(var(--dark-purple), var(--dark-gray) 80%);
@@ -120,7 +121,7 @@ html, body {
 .sub-text{
     font-family:  'Montserrat';
    font-weight: 100;
-  
+  line-height: 1.5;
 }
 .main-button{
     display: inline-block;
@@ -262,6 +263,7 @@ iframe:hover{
     text-align: center;
   align-self: center;
     margin: 30px;
+    line-height: 1.5;
   
 }
 .quote{
