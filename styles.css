@@ -1,6 +1,6 @@
 :root {
     --dark-gray: #120F16;
-    --dark-purple: #17072c;
+    --dark-purple: #220d3d;
     --chocolate-purple: #27202e;
   }
 html, body {
@@ -15,7 +15,7 @@ html, body {
     color: white;
   }
 .page-1{
-    background-image: linear-gradient(var(--dark-purple), var(--dark-gray) 60%);
+    background-image: linear-gradient(var(--dark-purple), var(--dark-gray) 80%);
     height: 800px;
     overflow: hidden;
     margin: 0;
@@ -107,9 +107,11 @@ html, body {
 
     transition: background-position 800ms ease-in;
   }
-  .span-1:hover {
+  .span-1:hover{
     background-position: 0 100%;
   }
+ 
+  
   .span-2{
     font-size:xx-large;
     font-weight: 100;
@@ -195,8 +197,8 @@ html, body {
 .vinyl{
     transform:rotate(0deg);
     position: absolute;
-    right:22%;
-    top:33%;
+    right:350px;
+    top:300px;
     height: 30%;
     transition: transform 1s ease-in-out;
     -webkit-filter: drop-shadow(0px 0px 10px #000000);
