@@ -1,2 +1,2 @@
-The Odin project includes HTML and CSS.
+This project includes HTML and CSS.
 Practice for flex box, transitions and animations.
